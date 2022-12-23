@@ -1,5 +1,13 @@
-.navbar-light .navbar-nav .nav-link.active-link
+
+.navbar-light .navbar-nav .nav-link
 {
-    color: green;
-    font-weight: bold;
+    color: blue;
+    
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
+{
+    color: red;
+    text-decoration: underline;
+    
 }
